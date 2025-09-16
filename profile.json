@@ -4,7 +4,6 @@
   "contact": {
     "phone": "+6289635019520",
     "email": "achmadhanafy@gmail.com",
-    "portfolio": "https://hanafy-portofolio.netlify.app/",
     "location": "Tajur Halang, Bogor, Indonesia"
   },
   "about": "Mobile and Frontend Developer with strong expertise in React Native and Flutter, complemented by experience in web development with Next.js. Experienced in leading end-to-end mobile app development, optimizing performance, and building reusable React Native component libraries.",
@@ -41,39 +40,6 @@
   ],
   "work_experience": [
     {
-      "role": "Mobile Developer (React Native)",
-      "company": "Farmbyte",
-      "location": "Kuala Lumpur, Malaysia",
-      "date": "Oct 2024 - Present",
-      "responsibilities": [
-        "Led end-to-end development of iOS and Android apps using React Native",
-        "Implemented new features and revamped existing apps",
-        "Built custom React Native component library (CLI & Expo)",
-        "Integrated Unistyles for dynamic theming",
-        "Created Storybook playground for components"
-      ],
-      "projects_contribution": [
-        {
-          "name": "Farmbyte Harvest",
-          "year": 2025,
-          "tech": "React Native Expo",
-          "description": "Marketplace for crop buyers in Malaysia"
-        },
-        {
-          "name": "Farmbyte Grow",
-          "year": 2024,
-          "tech": "React Native",
-          "description": "Seller center app for Farmbyte marketplace"
-        },
-        {
-          "name": "RN Adaptbyte",
-          "year": 2025,
-          "tech": "React Native",
-          "description": "Custom RN component library for Farmbyte"
-        }
-      ]
-    },
-    {
       "role": "Mobile Software Developer",
       "company": "CODE Development Indonesia",
       "location": "Jakarta, Indonesia",
@@ -109,6 +75,39 @@
           "year": 2024,
           "tech": "Swift UIKit",
           "description": "Smart CCTV app for device connection & control"
+        }
+      ]
+    },
+     {
+      "role": "Mobile Developer (React Native)",
+      "company": "Farmbyte",
+      "location": "Kuala Lumpur, Malaysia",
+      "date": "Oct 2024 - Sept 2024",
+      "responsibilities": [
+        "Led end-to-end development of iOS and Android apps using React Native",
+        "Implemented new features and revamped existing apps",
+        "Built custom React Native component library (CLI & Expo)",
+        "Integrated Unistyles for dynamic theming",
+        "Created Storybook playground for components"
+      ],
+      "projects_contribution": [
+        {
+          "name": "Farmbyte Harvest",
+          "year": 2025,
+          "tech": "React Native Expo",
+          "description": "Marketplace for crop buyers in Malaysia"
+        },
+        {
+          "name": "Farmbyte Grow",
+          "year": 2024,
+          "tech": "React Native",
+          "description": "Seller center app for Farmbyte marketplace"
+        },
+        {
+          "name": "RN Adaptbyte",
+          "year": 2025,
+          "tech": "React Native",
+          "description": "Custom RN component library for Farmbyte"
         }
       ]
     },

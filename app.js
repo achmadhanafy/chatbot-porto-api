@@ -43,25 +43,27 @@ app.post('/api/chat', async (req, res) => {
         // The system instruction provides the context to the model in a token-efficient way
         const systemInstruction = {
             role: "system",
-            parts: [{ text: `
-                You are an expert AI assistant. Your task is to answer questions about a person's professional background based ONLY on the provided JSON data.
-                The current year is 2025.
-                Do not invent information or use any external knowledge. If the answer cannot be found in the provided data, state that clearly.
-                Here is the data:
-                ${JSON.stringify(profileJson)}
+            parts: [{
+                text: `
+            You are an expert AI assistant. Your task is to answer questions about a person's professional background based ONLY on the provided JSON data.
+            The current year is ${new Date().getFullYear()}.
+            Respond from the first-person perspective, as if you are the person described in the JSON.
+            Do not invent information or use any external knowledge. If the answer cannot be found in the provided data, state that clearly.
+            Here is the data:
+            ${JSON.stringify(profileJson)}
             `}]
         };
-        
+
         const payload = {
             contents: history,
             systemInstruction: systemInstruction
         };
 
         const headers = { "Content-Type": "application/json" };
-        
+
         console.log(`Querying Gemini API for conversation: ${conversationId}`);
         const response = await axios.post(GEMINI_API_URL, payload, { headers });
-        
+
         const aiResponseText = response.data?.candidates?.[0]?.content?.parts?.[0]?.text;
 
         if (aiResponseText) {
@@ -69,7 +71,7 @@ app.post('/api/chat', async (req, res) => {
             // Add the AI's response to the history for future context
             history.push({ role: 'model', parts: [{ text: aiResponseText }] });
             conversations.set(conversationId, history);
-            
+
             // Return the response and the conversationId for follow-up requests
             res.status(200).json({ response: aiResponseText.trim(), conversationId });
         } else {
