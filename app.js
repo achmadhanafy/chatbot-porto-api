@@ -26,7 +26,7 @@ const conversations = new Map();
 
 // --- API Endpoint ---
 
-app.post('/chat', async (req, res) => {
+app.post('/api/chat', async (req, res) => {
     // 1. Validate incoming request
     const { message, conversationId: oldConversationId } = req.body;
     if (!message) {
