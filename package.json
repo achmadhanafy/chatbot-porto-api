@@ -1,0 +1,29 @@
+{
+  "name": "chatbot-porto-api",
+  "version": "1.0.0",
+  "description": "Chatbot for about Personal Portofolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achmadhanafy/chatbot-porto-api.git"
+  },
+  "keywords": [
+    "chatbot",
+    "porto",
+    "api"
+  ],
+  "author": "Achmad Hanafy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/achmadhanafy/chatbot-porto-api/issues"
+  },
+  "homepage": "https://github.com/achmadhanafy/chatbot-porto-api#readme",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  }
+}

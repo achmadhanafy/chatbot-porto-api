@@ -1,0 +1,174 @@
+{
+  "name": "Achmad Hanafy",
+  "title": "Mobile & Frontend Developer",
+  "contact": {
+    "phone": "+6289635019520",
+    "email": "achmadhanafy@gmail.com",
+    "portfolio": "https://hanafy-portofolio.netlify.app/",
+    "location": "Tajur Halang, Bogor, Indonesia"
+  },
+  "about": "Mobile and Frontend Developer with strong expertise in React Native and Flutter, complemented by experience in web development with Next.js. Experienced in leading end-to-end mobile app development, optimizing performance, and building reusable React Native component libraries.",
+  "education": [
+    {
+      "degree": "Bachelor of Informatics Engineering",
+      "institution": "Universitas Indraprasta PGRI",
+      "year": 2024,
+      "gpa": 3.33
+    }
+  ],
+"skills": [
+    {
+      "name": "Frontend Development",
+      "description": "Experienced in building modern, responsive, and scalable web applications with a strong focus on performance and user experience. Skilled in JavaScript, TypeScript, and React-based frameworks (Next.js). Proficient in implementing UI/UX with Tailwind CSS, Redux for state management, and Storybook for component-driven development.",
+      "tech":["NextJS","Javascript","TypeScript","HTML","CSS","Tailwind CSS","Redux","Storybook"]
+    },
+    {
+      "name": "Mobile Development",
+      "description": "Specialized in cross-platform mobile app development using React Native and Flutter, delivering high-quality apps for both iOS and Android. Experienced with Dart, native Android, and Swift/UIKit for iOS. Skilled in building scalable architectures, custom component libraries, and integrating APIs to ensure smooth user experiences across devices.",
+      "tech":["React Native","Flutter","Dart","Android Development","iOS Development"]
+    },
+    {
+      "name": "Others",
+      "description": "Strong background in tooling, and development workflows. Experienced in Express JS and Node.js for building APIs, Firebase for application setup, and Git for version control in collaborative environments. Also skilled in publishing reusable NPM libraries to streamline development across projects.",
+      "tech":["Web Development","NPM Library Development","Express JS","Node.js","Git Version Control","Firebase"]
+    }
+  ],
+  "certificates": [
+    { "title": "Bootcamp Fullstack JavaScript", "issuer": "Dumbways", "year": 2022 },
+    { "title": "Responsive Web Design", "issuer": "FreecodeCamp", "year": 2022 },
+    { "title": "JavaScript Intermediate", "issuer": "HackerRank", "year": 2022 },
+    { "title": "REST API Intermediate", "issuer": "HackerRank", "year": 2022 }
+  ],
+  "work_experience": [
+    {
+      "role": "Mobile Developer (React Native)",
+      "company": "Farmbyte",
+      "location": "Kuala Lumpur, Malaysia",
+      "date": "Oct 2024 - Present",
+      "responsibilities": [
+        "Led end-to-end development of iOS and Android apps using React Native",
+        "Implemented new features and revamped existing apps",
+        "Built custom React Native component library (CLI & Expo)",
+        "Integrated Unistyles for dynamic theming",
+        "Created Storybook playground for components"
+      ],
+      "projects_contribution": [
+        {
+          "name": "Farmbyte Harvest",
+          "year": 2025,
+          "tech": "React Native Expo",
+          "description": "Marketplace for crop buyers in Malaysia"
+        },
+        {
+          "name": "Farmbyte Grow",
+          "year": 2024,
+          "tech": "React Native",
+          "description": "Seller center app for Farmbyte marketplace"
+        },
+        {
+          "name": "RN Adaptbyte",
+          "year": 2025,
+          "tech": "React Native",
+          "description": "Custom RN component library for Farmbyte"
+        }
+      ]
+    },
+    {
+      "role": "Mobile Software Developer",
+      "company": "CODE Development Indonesia",
+      "location": "Jakarta, Indonesia",
+      "date": "Jul 2023 - Present",
+      "responsibilities": [
+        "Developed mobile apps per client specs",
+        "Implemented Figma UI designs",
+        "Integrated REST APIs",
+        "Handled full mobile app lifecycle (build, test, deploy)",
+        "Published apps to Google Play & App Store"
+      ],
+      "projects_contribution": [
+        {
+          "name": "Astraotoshop",
+          "year": 2023,
+          "tech": "React Native",
+          "description": "Automotive spare parts product listing"
+        },
+        {
+          "name": "Langit Musik Lite",
+          "year": 2025,
+          "tech": "Flutter",
+          "description": "Lite version of music streaming app"
+        },
+        {
+          "name": "My Jasindo",
+          "year": 2024,
+          "tech": "React Native",
+          "description": "Insurance app for subscription details"
+        },
+        {
+          "name": "Nuun",
+          "year": 2024,
+          "tech": "Swift UIKit",
+          "description": "Smart CCTV app for device connection & control"
+        }
+      ]
+    },
+    {
+      "role": "Frontend Developer",
+      "company": "Paramatech",
+      "location": "Jakarta, Indonesia",
+      "date": "Jul 2022 - Jul 2024",
+      "responsibilities": [
+        "Led frontend development for web & mobile apps",
+        "Implemented workflows aligned with business needs",
+        "Collaborated on backend integration",
+        "Participated in SIT & UAT testing",
+        "Delivered feature revamps and bug fixes"
+      ],
+      "projects_contribution": [
+        {
+          "name": "One By IFG",
+          "year": 2024,
+          "tech": "React Native",
+          "description": "Insurance app for product purchase & tracking"
+        },
+        {
+          "name": "Life by IFG (Mobile)",
+          "year": 2023,
+          "tech": "React Native",
+          "description": "Insurance app for subscription management"
+        },
+        {
+          "name": "Life by IFG (Web)",
+          "year": 2022,
+          "tech": "Next.js",
+          "description": "Insurance web app for subscription management"
+        },
+        {
+          "name": "LifeSpace",
+          "year": 2022,
+          "tech": "Next.js",
+          "description": "Admin portal for role & permission management"
+        }
+      ]
+    },
+    {
+      "role": "Fullstack Developer",
+      "company": "ASEAN Fintech Group",
+      "location": "Semarang, Indonesia",
+      "date": "Mar 2022 - Jul 2022",
+      "responsibilities": [
+        "Built responsive web apps with GatsbyJS, Material UI, TailwindCSS",
+        "Developed REST APIs with Node.js & Express",
+        "Managed database with TypeORM"
+      ],
+      "projects_contribution": [
+        {
+          "name": "BeamSpace",
+          "year": 2022,
+          "tech": "GatsbyJS",
+          "description": "Admin portal for warehouse management"
+        }
+      ]
+    }
+  ]
+}
