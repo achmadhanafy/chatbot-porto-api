@@ -1,6 +1,8 @@
 {
   "name": "Achmad Hanafy",
   "title": "Mobile & Frontend Developer",
+  "github": "https://github.com/achmadhanafy",
+  "linkedin": "https://linkedin.com/in/achmad-hanafy/",
   "contact": {
     "phone": "+6289635019520",
     "email": "achmadhanafy@gmail.com",
@@ -15,27 +17,61 @@
       "gpa": 3.33
     }
   ],
-"skills": [
+  "skills": [
     {
       "name": "Frontend Development",
       "description": "Experienced in building modern, responsive, and scalable web applications with a strong focus on performance and user experience. Skilled in JavaScript, TypeScript, and React-based frameworks (Next.js). Proficient in implementing UI/UX with Tailwind CSS, Redux for state management, and Storybook for component-driven development.",
-      "tech":["NextJS","Javascript","TypeScript","HTML","CSS","Tailwind CSS","Redux","Storybook"]
+      "tech": [
+        "NextJS",
+        "Javascript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "Redux",
+        "Storybook"
+      ]
     },
     {
       "name": "Mobile Development",
       "description": "Specialized in cross-platform mobile app development using React Native and Flutter, delivering high-quality apps for both iOS and Android. Experienced with Dart, native Android, and Swift/UIKit for iOS. Skilled in building scalable architectures, custom component libraries, and integrating APIs to ensure smooth user experiences across devices.",
-      "tech":["React Native","Flutter","Dart","Android Development","iOS Development"]
+      "tech": [
+        "React Native",
+        "Flutter",
+        "Dart",
+        "Android Development",
+        "iOS Development"
+      ]
     },
     {
       "name": "Others",
       "description": "Strong background in tooling, and development workflows. Experienced in Express JS and Node.js for building APIs, Firebase for application setup, and Git for version control in collaborative environments. Also skilled in publishing reusable NPM libraries to streamline development across projects.",
-      "tech":["Web Development","NPM Library Development","Express JS","Node.js","Git Version Control","Firebase"]
+      "tech": [
+        "Web Development",
+        "NPM Library Development",
+        "Express JS",
+        "Node.js",
+        "Git Version Control",
+        "Firebase"
+      ]
     }
   ],
   "certificates": [
-    { "title": "Bootcamp Fullstack JavaScript", "issuer": "Dumbways", "year": 2022 },
-    { "title": "Responsive Web Design", "issuer": "FreecodeCamp", "year": 2022 },
-    { "title": "JavaScript Intermediate", "issuer": "HackerRank", "year": 2022 },
+    {
+      "title": "Bootcamp Fullstack JavaScript",
+      "issuer": "Dumbways",
+      "year": 2022
+    },
+    {
+      "title": "Responsive Web Design",
+      "issuer": "FreecodeCamp",
+      "year": 2022
+    },
+    {
+      "title": "JavaScript Intermediate",
+      "issuer": "HackerRank",
+      "year": 2022
+    },
     { "title": "REST API Intermediate", "issuer": "HackerRank", "year": 2022 }
   ],
   "work_experience": [
@@ -50,35 +86,9 @@
         "Integrated REST APIs",
         "Handled full mobile app lifecycle (build, test, deploy)",
         "Published apps to Google Play & App Store"
-      ],
-      "projects_contribution": [
-        {
-          "name": "Astraotoshop",
-          "year": 2023,
-          "tech": "React Native",
-          "description": "Automotive spare parts product listing"
-        },
-        {
-          "name": "Langit Musik Lite",
-          "year": 2025,
-          "tech": "Flutter",
-          "description": "Lite version of music streaming app"
-        },
-        {
-          "name": "My Jasindo",
-          "year": 2024,
-          "tech": "React Native",
-          "description": "Insurance app for subscription details"
-        },
-        {
-          "name": "Nuun",
-          "year": 2024,
-          "tech": "Swift UIKit",
-          "description": "Smart CCTV app for device connection & control"
-        }
       ]
     },
-     {
+    {
       "role": "Mobile Developer (React Native)",
       "company": "Farmbyte",
       "location": "Kuala Lumpur, Malaysia",
@@ -89,26 +99,6 @@
         "Built custom React Native component library (CLI & Expo)",
         "Integrated Unistyles for dynamic theming",
         "Created Storybook playground for components"
-      ],
-      "projects_contribution": [
-        {
-          "name": "Farmbyte Harvest",
-          "year": 2025,
-          "tech": "React Native Expo",
-          "description": "Marketplace for crop buyers in Malaysia"
-        },
-        {
-          "name": "Farmbyte Grow",
-          "year": 2024,
-          "tech": "React Native",
-          "description": "Seller center app for Farmbyte marketplace"
-        },
-        {
-          "name": "RN Adaptbyte",
-          "year": 2025,
-          "tech": "React Native",
-          "description": "Custom RN component library for Farmbyte"
-        }
       ]
     },
     {
@@ -122,32 +112,6 @@
         "Collaborated on backend integration",
         "Participated in SIT & UAT testing",
         "Delivered feature revamps and bug fixes"
-      ],
-      "projects_contribution": [
-        {
-          "name": "One By IFG",
-          "year": 2024,
-          "tech": "React Native",
-          "description": "Insurance app for product purchase & tracking"
-        },
-        {
-          "name": "Life by IFG (Mobile)",
-          "year": 2023,
-          "tech": "React Native",
-          "description": "Insurance app for subscription management"
-        },
-        {
-          "name": "Life by IFG (Web)",
-          "year": 2022,
-          "tech": "Next.js",
-          "description": "Insurance web app for subscription management"
-        },
-        {
-          "name": "LifeSpace",
-          "year": 2022,
-          "tech": "Next.js",
-          "description": "Admin portal for role & permission management"
-        }
       ]
     },
     {
@@ -159,15 +123,131 @@
         "Built responsive web apps with GatsbyJS, Material UI, TailwindCSS",
         "Developed REST APIs with Node.js & Express",
         "Managed database with TypeORM"
-      ],
-      "projects_contribution": [
-        {
-          "name": "BeamSpace",
-          "year": 2022,
-          "tech": "GatsbyJS",
-          "description": "Admin portal for warehouse management"
-        }
       ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Life by IFG (Mobile)",
+      "category": "Mobile & Web Application",
+      "year": 2023,
+      "tech": ["React Native", "Next JS"],
+      "webUrl": "https://www.life.id/",
+      "androidUrl": "https://play.google.com/store/apps/details?id=id.lifecustomer&hl=en",
+      "iosUrl": "https://apps.apple.com/id/app/life-by-ifg/id1627986095",
+      "description": "Insurance application official digital hub for IFG Life customers, enabling easy policy management. Users can view buy insurance subsription inside app, track insurance benefit due dates, and access information on any restructured transferred policies conveniently",
+      "url": "https://play.google.com/store/apps/details?id=id.lifecustomer&hl=en",
+      "company": "Paramatech"
+    },
+    {
+      "name": "Farmbyte Grow",
+      "year": 2024,
+      "category": "Mobile Application",
+      "tech": ["React Native"],
+      "description": "Seller Center platform for farmers to maximize profit and sell their crops to Farmbyte company. It provides crop advisory, farming logs, transparent market prices, and schedules harvest collection/logistics to optimize farm management and sales.",
+      "androidUrl": "https://play.google.com/store/apps/details?id=com.newfarmbytedigital.farmbyte&hl=en",
+      "iosUrl": "https://apps.apple.com/my/app/farmbyte-app/id6737538318",
+      "company": "Farmbyte"
+    },
+    {
+      "name": "One By IFG",
+      "year": 2024,
+      "category": "Mobile Application",
+      "tech": ["React Native"],
+      "description": "One by IFG is an integrated platform offering various Insurance, Health, and Investment products. It provides instant registration, 24/7 access, and digital consultation to meet users' financial and health needs.",
+      "androidUrl": "https://play.google.com/store/apps/details?id=com.one.ifg&hl=en",
+      "iosUrl": "https://apps.apple.com/id/app/one-by-ifg/id1564248452",
+      "company": "Paramatech"
+    },
+    {
+      "name": "Astraotoshop",
+      "year": 2023,
+      "category": "Mobile Application",
+      "tech": ["React Native"],
+      "description": "Mobile marketplace for buying genuine car and motorcycle spare parts online offically by Astra Otoparts. It offers a vast product listing, vehicle-specific search, and booking services for professional installation",
+      "androidUrl": "https://play.google.com/store/apps/details?id=com.astraotoshop.b2c&hl=id",
+      "iosUrl": "https://apps.apple.com/id/app/astra-otoshop/id6450980881",
+      "url": "https://play.google.com/store/apps/details?id=com.astraotoshop.b2c&hl=id",
+      "company": "Paramatech"
+    },
+    {
+      "name": "LifeSpace",
+      "year": 2022,
+      "tech": ["Next.js"],
+      "category": "Web Application",
+      "webUrl": "https://space.life.id/login",
+      "description": "This is an administrative portal used to manage user access and security within a system. Key functions include defining user roles (e.g., administrator, manager, user), assigning granular permissions to those roles, and controlling which users have the authority to view or modify sensitive data and system features.",
+      "url": "https://space.life.id/login",
+      "company": "Paramatech"
+    },
+    {
+      "name": "BeamSpace",
+      "category": "Web Application",
+      "year": 2022,
+      "tech": ["GatsbyJS"],
+      "webUrl": "https://www.beamspace.com/sg",
+      "description": "This administrative portal is dedicated to overseeing all operational aspects of a physical warehouse or logistics center. It enables staff to manage inventory levels, track the movement of stock, optimize storage locations, process inbound and outbound shipments, and monitor overall performance and efficiency metrics.",
+      "url": "https://www.beamspace.com/sg",
+      "company": "ASEAN Fintech Group"
+    },
+    {
+      "name": "RN Adaptbyte",
+      "year": 2025,
+      "category": "UI Library for React Native",
+      "tech": ["React Native"],
+      "description": "Custom RN component library for Farmbyte",
+      "webUrl": "https://www.npmjs.com/package/rn-adaptbyte",
+      "npmUrl": "npmjs.com/search?q=rn-adaptbyte",
+      "company": "Farmbyte"
+    },
+    {
+      "name": "Sagara AI ( Gemini API )",
+      "year": 2025,
+      "category": "Web Application",
+      "tech": ["Next JS", "Express JS"],
+      "description": "Sagara AI is generative text chat bot using Gemini API. Handle multi-turn conversation to manage context conversation between system and user. This project is requirements to pass Hacktiv8 Course Maju Bareng AI for Profesional Developer",
+      "webUrl": "https://sagara-chatbot.vercel.app/",
+      "company": "Personal"
+    },
+    {
+      "name": "Langit Musik Lite",
+      "year": 2025,
+      "category": "Mobile Application",
+      "tech": ["Flutter"],
+      "description": "Lite version of music streaming app, available for guest mode, free user and premium user with subscription. You can enjoy listen many indonesia songs in this platform",
+      "url": null,
+      "underDevelopment": true,
+      "company": "CODE Development Indonesia"
+    },
+    {
+      "name": "Farmbyte Harvest",
+      "year": 2025,
+      "category": "Mobile Application",
+      "tech": ["React Native Expo"],
+      "description": "Marketplace for crop buyers in Malaysia, this application is in early stage of development",
+      "url": null,
+      "underDevelopment": true,
+      "company": "Farmbyte"
+    },
+    {
+      "name": "Nuun",
+      "category": "Mobile Application",
+      "year": 2024,
+      "tech": ["Swift UIKit"],
+      "description": "Smart CCTV app for device connection & control. User can possible to connect their smart cctv from Tuya or JFTech SDK. Enable to auto detect SDK by CCTV details. Monitor and control device, also smart user motion detection notification",
+      "url": null,
+      "underDevelopment": true,
+      "company": "CODE Development Indonesia"
+    },
+    {
+      "name": "My Jasindo",
+      "year": 2024,
+      "category": "Mobile Application",
+      "tech": ["React Native"],
+      "description": "Insurance app for subscription details for jasindo customers. Provide feature to see insurance detail coverage, beneficiary and subscription detail.",
+      "url": null,
+      "underDevelopment": true,
+      "company": "CODE Development Indonesia"
     }
   ]
 }
