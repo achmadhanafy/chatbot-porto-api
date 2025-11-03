@@ -128,7 +128,7 @@
   ],
   "projects": [
     {
-      "name": "Life by IFG (Mobile)",
+      "name": "Life by IFG",
       "category": "Mobile & Web Application",
       "year": 2023,
       "tech": ["React Native", "Next JS"],
