@@ -17,7 +17,7 @@ app.use(express.json());
 const { GEMINI_API_KEY } = process.env;
 
 // Gemini API endpoint
-const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${GEMINI_API_KEY}`;
+const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${GEMINI_API_KEY}`;
 
 
 // In-memory store for conversation histories.
